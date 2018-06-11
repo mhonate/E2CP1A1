@@ -4,6 +4,9 @@
 		<meta charset="utf-8">
 		<title>Box Model</title>
 			<style>
+			body{
+				margin: 0px 0px 0px 0px;
+				}
 			.box{
 			width: 25%;
 			height: 400px;
@@ -12,13 +15,46 @@
 			float: left;
 			text-align: center;
 			}
+
 			img{
 				width: 70%;
-
 			}
+
+						
+			.clearfix{
+				clear: both;
+			}
+
+			.navbar{
+				top: 0px;
+				width: 50%;
+				position: fixed;
+				height: 100px;
+				background-color: silver;
+				margin: 0 25% 0 25%;
+			}
+			li{
+				list-style-type: none;
+				float: left;
+				padding: 20px;
+				text-align: center;
+				}
+
+
 			</style>
 	</head>
 		<body>
+			<nav class="navbar">
+				<ul>
+					<li>Inicio</li>
+					<li>Información</li>
+					<li>Contacto</li>
+				</ul>
+
+			</nav>
+			<div class="clearfix">
+			</div>
+			<div>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -37,10 +73,10 @@
 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+			</div>
 			<div class="box">
 				<div>
-					<img src="images/logo_desafio_latam.svg" alt="logo">
+					<img src="../images/logo_desafio_latam.svg" alt="logo">
 					<p>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation</p>
@@ -48,7 +84,7 @@
 			</div>
 			<div class="box">
 				<div>
-					<img src="images/logo_desafio_latam.svg" alt="logo">
+					<img src="../images/logo_desafio_latam.svg" alt="logo">
 					<p>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation</p>
@@ -56,7 +92,7 @@
 			</div>
 			<div class="box">
 				<div>
-					<img src="images/logo_desafio_latam.svg" alt="logo">
+					<img src="../images/logo_desafio_latam.svg" alt="logo">
 					<p>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation</p>
@@ -64,7 +100,7 @@
 			</div>
 			<div class="box">
 				<div>
-					<img src="images/logo_desafio_latam.svg" alt="logo">
+					<img src="../images/logo_desafio_latam.svg" alt="logo">
 					<p>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation</p>
