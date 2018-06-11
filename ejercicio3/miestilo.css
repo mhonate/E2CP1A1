@@ -1,0 +1,138 @@
+	.flag1{
+		position: relative;
+		width: 350px;
+		height: 250px;
+		background-color: red;
+		margin: 30px;
+		float: left;
+		text-align: center;
+		}					
+		
+	.spain{
+		position: absolute;
+		width: 350px;
+		background-color: yellow;
+		height: 110px;
+		z-index: 10;
+		top: 32%;
+		
+		}	
+		
+	.clearfix{
+		clear: both;
+		}
+
+	.flag2{
+		position: relative;
+		width: 350px;
+		height: 250px;
+		background-color: white;
+		margin: 30px;
+		float: left;
+		text-align: center;
+		}					
+		
+	.danes1{
+		position: absolute;
+		width: 130px;
+		background-color: red;
+		height: 115px;
+		z-index: 10;
+		top: 0;
+		
+		}
+		.danes2{
+		position: absolute;
+		width: 130px;
+		background-color: red;
+		height: 115px;
+		z-index: 10;
+		bottom: 0;
+		
+		}	
+		.danes3{
+		position: absolute;
+		width: 200px;
+		background-color: red;
+		height: 115px;
+		z-index: 10;
+		top: 0;
+		right: 0;
+		
+		}	
+		.danes4{
+		position: absolute;
+		width: 200px;
+		background-color: red;
+		height: 115px;
+		z-index: 10;
+		bottom: 0;
+		right: 0;
+		
+		}	
+		
+	.clearfix{
+		clear: both;
+		}
+
+	.flag3{
+		position: relative;
+		width: 350px;
+		height: 250px;
+		background-color: white;
+		margin: 30px;
+		float: left;
+		text-align: center;
+		}					
+		
+	.eau1{
+		position: absolute;
+		width: 100px;
+		background-color: red;
+		height: 250px;
+		z-index: 10;
+		top: 0;
+		
+		}
+	.eau2{
+		position: absolute;
+		width: 250px;
+		background-color: green;
+		height: 80px;
+		z-index: 10;
+		top: 0;
+		right: 0;
+		
+		}	
+	.eau3{
+		position: absolute;
+		width: 250px;
+		background-color: black;
+		height: 80px;
+		z-index: 10;
+		bottom: 0;
+		right: 0;
+				
+		}	
+	
+	.flag4{
+		position: relative;
+		width: 350px;
+		height: 250px;
+		background-color: white;
+		margin: 30px;
+		float: left;
+		border: solid 1px silver;
+		}					
+		
+	.japon{
+		position: absolute;
+		width: 130px;
+		height: 115px;
+		background-color: red;
+		left: 28%;
+		top: 28%;
+		border-radius: 50%;
+
+		
+		}
